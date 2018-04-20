@@ -1,0 +1,54 @@
+@import "_imports";
+a {
+	border-bottom: 1px dotted;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #002b3d;
+}
+.u-lHeader {
+	background: #002b3d url(/biochem/web/docs/css/inner-background-3.png) no-repeat center center;
+}
+.u-Masthead__siteName--link {
+	color: $masthead-linkColor;
+	border-bottom: 0px;
+}
+.u-Masthead__siteName--link:visited {
+	color: $masthead-linkColor;
+}
+.u-Masthead__siteName--link:focus {
+	color: white;
+}
+.u-Masthead__siteName--link:hover {
+	color: $masthead-linkColorHoverFocus;
+}
+.u-Masthead__siteName--link:active {
+	color: white;
+}
+.u-NavSite__item.u-NavSite__item--isCurrent {
+	color: $linkColorHoverFocus;
+}
+.u-ArticleListItem {
+	background: #f2f2f1;
+	border-bottom: 1px solid #ccc; 
+}
+.u-lFooter {
+	border-top: 1px solid #d2d6ec;
+}
+.u-Search__field {
+  border: 8px solid #000;
+}
+@media all and (min-width: $small) {
+.u-Search__field {
+  border: none;
+}
+}
+@media all and (min-width: $pointAtWhichSearchMovesToRight) {
+.u-NavSite {
+	border-right: 1px solid #d2d6ec;
+}
+.u-lAside {
+	border-left: 1px solid #d2d6ec;
+	border-bottom: 0px solid #d2d6ec;
+	border-top: 0px solid #d2d6ec;
+}
+}
