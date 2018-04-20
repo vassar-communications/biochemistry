@@ -324,3 +324,6 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 1px solid #d2d6ec;
     border-bottom: 0px solid #d2d6ec;
     border-top: 0px solid #d2d6ec; } }
+@media (min-width: 37.5em) {
+  .g- .u-Masthead__siteName {
+    margin-top: 0; } }
