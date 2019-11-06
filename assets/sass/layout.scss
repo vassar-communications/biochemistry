@@ -64,6 +64,19 @@ html {
 	margin: 0 5% 0 5%;  
 }
 }
+@media all and (min-width: $large)
+{
+    .gf- .PageContent
+    {
+        max-width: none;
+    }
+    
+    .gf- .u-lContent
+    {
+        //max-width: 75em;
+    }
+}
+
 @media all and (min-width: $xlarge) {
 .u-lHeader, .u-lFooter {
 	padding: 2em 15% 2.5em 15%;  
